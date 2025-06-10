@@ -1,0 +1,220 @@
+body, h1, label, input, button {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+  }
+
+  body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .login-card {
+    width: 100%;
+    max-width: 450px;
+    background: rgba(12, 35, 64, 0.7);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    border: 1px solid rgba(100, 149, 237, 0.3);
+    backdrop-filter: blur(6px);
+    transition: transform 0.3s ease;
+  }
+
+  .login-card:hover {
+    transform: translateY(-5px);
+  }
+
+  .language-selector {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+  }
+
+  .language-btn {
+    background: rgba(25, 55, 100, 0.7);
+    color: white;
+    border: 1px solid rgba(100, 149, 237, 0.3);
+    border-radius: 6px;
+    padding: 6px 12px;
+    margin-left: 5px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: all 0.2s ease;
+  }
+
+  .language-btn:hover {
+    background: rgba(65, 105, 225, 0.5);
+  }
+
+  .language-btn.active {
+    background: rgba(65, 105, 225, 0.7);
+    font-weight: bold;
+  }
+
+  .card-header {
+    background: rgba(16, 42, 76, 0.8);
+    color: white;
+    padding: 35px;
+    text-align: center;
+    border-bottom: 1px solid rgba(100, 149, 237, 0.3);
+  }
+
+  .card-header h1 {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+  }
+
+  .card-header p {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  .form-content {
+    padding: 30px;
+  }
+
+  .form-group {
+    margin-bottom: 25px;
+    position: relative;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 0.95rem;
+  }
+
+  input {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: rgba(25, 55, 100, 0.5);
+    color: white;
+    transition: all 0.3s ease;
+  }
+
+  input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  input:focus {
+    border-color: #4682b4;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(70, 130, 180, 0.3);
+    background-color: rgba(30, 70, 120, 0.7);
+  }
+
+  .submit-btn {
+    background: linear-gradient(to right, #4169e1, #4682b4);
+    color: white;
+    border: none;
+    padding: 16px;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 10px;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: all 0.3s ease;
+  }
+
+  .submit-btn:hover {
+    background: linear-gradient(to right, #4682b4, #4169e1);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(65, 105, 225, 0.3);
+  }
+
+  .toggle-password {
+    position: relative;
+  }
+
+  .toggle-password input {
+    padding-right: 50px;
+  }
+
+  .toggle-password-btn {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.7);
+    transition: color 0.3s ease;
+  }
+
+  .toggle-password-btn:hover {
+    color: white;
+  }
+
+  .forgot-password {
+    display: block;
+    text-align: right;
+    margin-top: 5px;
+    font-size: 0.85rem;
+    color: #4682b4;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .forgot-password:hover {
+    color: white;
+    text-decoration: underline;
+  }
+
+  .signup-link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .signup-link a {
+    color: #4682b4;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+
+  .signup-link a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+
+  @media (max-width: 480px) {
+    .card-header {
+      padding: 25px;
+    }
+    
+    .form-content {
+      padding: 25px;
+    }
+    
+    input {
+      padding: 12px;
+    }
+    
+    .submit-btn {
+      padding: 14px;
+    }
+    
+    .language-selector {
+      top: 10px;
+      right: 10px;
+    }
+  }
