@@ -49,16 +49,20 @@ The **Job Portal Web Application** is a dynamic platform designed to simplify th
 
 ## Screenshots
 - **Home Page**: Multilingual landing page with job search functionality.
-![Screenshot 2025-05-13 183425](https://github.com/user-attachments/assets/cc531636-396d-4212-be10-c087ae68130d)
-![Screenshot 2025-05-13 183350](https://github.com/user-attachments/assets/dc6219eb-2303-45fc-8f38-ed628bc49df8)
-![Screenshot 2025-05-13 183321](https://github.com/user-attachments/assets/fbd70c77-246c-4f45-9f82-9b53bdcc8c7e)
+![Screenshot 2025-05-13 183321](https://github.com/user-attachments/assets/75fb9714-b9c4-4555-a429-c9baa55db447)
+![Screenshot 2025-05-13 183350](https://github.com/user-attachments/assets/05f4ded7-e179-4774-b1db-fd784a5d6215)
+![Screenshot 2025-05-13 183425](https://github.com/user-attachments/assets/1e6b5e43-b72d-4064-a16f-1e42b6a262b3)
+
+
 - **User Dashboards**: Tailored interfaces for job seekers and employers.
-- ![Screenshot 2025-05-13 185010](https://github.com/user-attachments/assets/fa0f49c7-fcd6-446b-92ec-68597a83cbb0)
-![Screenshot 2025-05-13 185319](https://github.com/user-attachments/assets/b4333a31-d6f4-44a0-bea9-c70b82ef587c)
+![Screenshot 2025-05-13 185319](https://github.com/user-attachments/assets/d09105c5-44e2-4e2f-86b5-988d2bb55836)
+![Screenshot 2025-05-13 185010](https://github.com/user-attachments/assets/4474d8dc-4b2c-4df0-bbe7-e54c962791c9)
+
 - **Job Management**: Employers can post and manage jobs; admins oversee listings.
-![Screenshot 2025-05-12 232221](https://github.com/user-attachments/assets/589c6167-e93d-41b5-a6b7-a0cd0e001422)
-![Screenshot 2025-05-12 232337](https://github.com/user-attachments/assets/0ff8177b-cdeb-4347-8642-5dfb6b89b7ac)
-![Screenshot 2025-05-12 232355](https://github.com/user-attachments/assets/e75f1f63-e819-4ed9-8893-23aa12e16f4a)
+![Screenshot 2025-05-12 232221](https://github.com/user-attachments/assets/3d4c6c70-b655-4b20-aaf4-48a87cc1664d)
+![Screenshot 2025-05-12 232337](https://github.com/user-attachments/assets/a21f7d6e-6888-48a2-85f6-8f404a768244)
+![Screenshot 2025-05-12 232059](https://github.com/user-attachments/assets/5c3a5546-c65b-4d9b-8ccb-a5ae0e8e3131)
+
 
 ## License
 This project is licensed under the MIT License. See the `LICENSE` file for details.
